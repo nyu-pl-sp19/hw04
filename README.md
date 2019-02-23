@@ -137,6 +137,7 @@ def foo(s: Int => Unit, y: Int): () => Unit = {
 
   s(y)
   print_x()
+  print_x
 }
 
 val p = foo(set_x, 1)
@@ -144,14 +145,11 @@ set_x(2)
 p()
 ```
 
-1. What does this program print with static scoping semantics for
-   names and deep binding semantics for functions that are passed as
-   arguments to other functions (i.e. Scala's standard semantics)?
-   Explain.
+1. What does this program print with static scoping and deep binding
+   semantics (i.e. Scala's standard semantics)?  Explain.
    
 2. What would this program print if Scala were to use dynamic scoping
-   for names and shallow binding semantics for functions passed as
-   arguments? Explain.
+   and shallow binding semantics? Explain.
 
 ## Problem 3: Parameter Passing Modes (8 Points)
 
