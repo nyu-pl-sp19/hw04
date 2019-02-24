@@ -162,7 +162,7 @@ def params(x: Int, y: Int) {
 }
 
 var z = 1;
-params(z, {z := z + 1; z});
+params(z, {z = z + 1; z});
 println(z);
 ```
 
