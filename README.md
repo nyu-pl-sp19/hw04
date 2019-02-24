@@ -60,7 +60,7 @@ solutions after the homework deadline has passed.
 
 ## Problem 1: Activation Records (4 Points)
 
-Consider the following code excerpt from a university system that
+Consider the following C code excerpt from a university system that
 allows users to query the system for grade entries in a student's
 grade transcript:
 
